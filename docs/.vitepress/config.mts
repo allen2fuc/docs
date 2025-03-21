@@ -67,31 +67,28 @@ export default defineConfig({
             {
                 text: 'All-In-One', items: [
                     {
-                        text: 'Proxmox VE', items: [
-                            {text: '安装篇', link: '/All-In-One/PVE/PVE-安装',},
-                            {text: '命令篇', link: '/All-In-One/PVE/PVE-命令'}
-                        ]
+                        text: 'Proxmox VE', link: '/All-In-One/All-In-One'
                     },
-                    {
-                        text: 'Openwrt', items: [
-                            {text: '编译篇', link: '/All-In-One/Openwrt/Openwrt-编译'},
-                        ]
-                    },
-                    {
-                        text: 'Docker', items: [
-                            {text: '显卡授权', link: '/All-In-One/Docker/显卡授权'},
-                            {text: 'Grafana', link: '/All-In-One/Docker/Grafana'},
-                            {text: 'Prometheus', link: '/All-In-One/Docker/Prometheus'},
-                            {text: 'Alertmanager', link: '/All-In-One/Docker/Alertmanager'},
-                            {text: 'Speedtest', link: '/All-In-One/Docker/Speedtest'},
-                            {text: 'WebSSH', link: '/All-In-One/Docker/Webssh'},
-                            {text: 'Windows激活', link: '/All-In-One/Docker/Py-kms'},
-                            {text: '游览器快捷导航', link: '/All-In-One/Docker/Mtab'},
-                            {text: '下载服务器', link: '/All-In-One/Docker/Download'},
-                            {text: 'Clash', link: '/All-In-One/Docker/Clash'},
-                            {text: 'ping-exporter', link: '/All-In-One/Docker/PingExporter'},
-                        ]
-                    }
+                    // {
+                    //     text: 'Openwrt', items: [
+                    //         {text: '编译篇', link: '/All-In-One/Openwrt/Openwrt-编译'},
+                    //     ]
+                    // },
+                    // {
+                    //     text: 'Docker', items: [
+                    //         {text: '显卡授权', link: '/All-In-One/Docker/显卡授权'},
+                    //         {text: 'Grafana', link: '/All-In-One/Docker/Grafana'},
+                    //         {text: 'Prometheus', link: '/All-In-One/Docker/Prometheus'},
+                    //         {text: 'Alertmanager', link: '/All-In-One/Docker/Alertmanager'},
+                    //         {text: 'Speedtest', link: '/All-In-One/Docker/Speedtest'},
+                    //         {text: 'WebSSH', link: '/All-In-One/Docker/Webssh'},
+                    //         {text: 'Windows激活', link: '/All-In-One/Docker/Py-kms'},
+                    //         {text: '游览器快捷导航', link: '/All-In-One/Docker/Mtab'},
+                    //         {text: '下载服务器', link: '/All-In-One/Docker/Download'},
+                    //         {text: 'Clash', link: '/All-In-One/Docker/Clash'},
+                    //         {text: 'ping-exporter', link: '/All-In-One/Docker/PingExporter'},
+                    //     ]
+                    // }
                 ]
             },
             {text: '私人笔记', link: '/'}
@@ -113,7 +110,7 @@ export default defineConfig({
                 collapsed: false,
                 items: [
                     {
-                        text: 'Proxmox VE', items: [
+                        text: 'Proxmox VE', link: '/All-In-One/All-In-One', items: [
                             {text: '安装篇', link: '/All-In-One/PVE/PVE-安装'},
                             {text: '命令篇', link: '/All-In-One/PVE/PVE-命令'}
                         ]
