@@ -13,7 +13,7 @@ hero:
       text: 实践案例
       link: /
   image: # 可以添加一个图像路径，使页面更加生动
-    src: "/public/办公6.png" # 图像应与你的主题相关联
+    src: "https://mardown-1257386302.cos.ap-guangzhou.myqcloud.com/%E5%8A%9E%E5%85%AC6.png" # 图像应与你的主题相关联
     alt: "学习与成长"
 
 features:
