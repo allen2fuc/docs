@@ -98,9 +98,7 @@ export default defineConfig({
         sidebar: [
             {
                 text: '前端笔记',
-                items: [
-                    {text: 'VitePress', link: '/前端笔记/VitePress'}
-                ]
+                link: '/'
             },
             {
                 text: '后端笔记'
