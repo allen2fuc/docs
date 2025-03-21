@@ -9,9 +9,6 @@ export default defineConfig({
   	/* 暂不知道在哪有显示TODO */
     description: "学海无涯苦作舟",
 
-    /* 根路径 */
-    base: '/docs/',
-
     /* 显示头部分的内容 */
     head: [
         ['link', {rel: 'icon', href: 'https://mardown-1257386302.cos.ap-guangzhou.myqcloud.com/20250321144848336.png'}]
