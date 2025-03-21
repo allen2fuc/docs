@@ -28,7 +28,7 @@ $ slmgr /upk
 $ slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
 
 # KMS 的全称是 Key Management Service（密钥管理服务）。这是微软提供的一种用于企业环境中批量激活 Windows 和 Office 等产品的服务机制。
-$ slmgr /skms 192.168.88.172:1688
+$ slmgr /skms 192.168.88.x:1688
 
 # /ato：这是 slmgr 的一个参数，代表“Activate”操作，即激活系统。它会根据当前配置的产品密钥或 KMS 服务器信息来尝试激活 Windows。
 $ slmgr /ato
@@ -44,7 +44,7 @@ $ cd "C:\Program Files (x86)\Microsoft Office\Office16"
 $ CSCRIPT OSPP.VBS /DSTATUS
 
 # 使用以下命令修改KMS服务器，不要漏了cscript：
-$ CSCRIPT OSPP.VBS /sethst:192.168.88.172
+$ CSCRIPT OSPP.VBS /sethst:192.168.88.x
 $ CSCRIPT OSPP.VBS /setprt:1688
 
 # 执行Office 2019 零售到批量许可证转换器
